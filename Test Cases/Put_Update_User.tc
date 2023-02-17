@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put_Update_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5094ba23-2c9d-4e4c-8cdb-b65fc78f1ba0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8519726c-491a-445c-b5c8-fef9797e80f8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n  &quot;$schema&quot;: &quot;http://json-schema.org/draft-04/schema#&quot;,\r\n  &quot;type&quot;: &quot;object&quot;,\r\n  &quot;properties&quot;: {\r\n    &quot;name&quot;: {\r\n      &quot;type&quot;: &quot;string&quot;\r\n    },\r\n    &quot;job&quot;: {\r\n      &quot;type&quot;: &quot;string&quot;\r\n    },\r\n    &quot;updatedAt&quot;: {\r\n      &quot;type&quot;: &quot;string&quot;\r\n    }\r\n  },\r\n  &quot;required&quot;: [\r\n    &quot;name&quot;,\r\n    &quot;job&quot;,\r\n    &quot;updatedAt&quot;\r\n  ]\r\n}'</defaultValue>
+      <description></description>
+      <id>8519726c-491a-445c-b5c8-fef9797e80f8</id>
+      <masked>false</masked>
+      <name>UpdateUserJsonSchema</name>
+   </variable>
+</TestCaseEntity>
